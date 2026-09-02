@@ -14,6 +14,20 @@
     "focus-blur-resolve",
     "line-by-line-slide",
     "per-word-crossfade",
+    "word-stream",
+    "word-push",
+    "sheen-slide-in",
+    "squeeze-in",
+    "fog-rise",
+    "caret-swap",
+    "zoom-words",
+    "centered-word-build",
+    "inline-pill-takeover",
+    "typed-split-wipe",
+    "shadow-sweep-text",
+    "outline-fill-track-text",
+    "gradient-scale-cut-text",
+    "rush-type",
     "fade-through",
     "shared-axis-y",
     "shared-axis-z",
@@ -46,5 +60,6 @@
     "extrude-pop",
     "chromatic-wave",
     "stretch-in"
-  ]
+  ],
+  "icon": "TextFontIcon"
 }
