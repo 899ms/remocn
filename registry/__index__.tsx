@@ -22,6 +22,16 @@ const registry: Record<string, RegistryEntry> = {
         (m) => m.searchRevealConfig,
       ),
   },
+  "type-fossil": {
+    load: () =>
+      import("@/registry/remocn/type-fossil").then((m) => ({
+        default: m.TypeFossil,
+      })),
+    loadConfig: () =>
+      import("@/registry/remocn/type-fossil/config").then(
+        (m) => m.typeFossilConfig,
+      ),
+  },
   "soft-blur-in": {
     load: () =>
       import("@/registry/remocn/soft-blur-in").then((m) => ({

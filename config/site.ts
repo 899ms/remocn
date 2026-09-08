@@ -65,6 +65,7 @@ export const NAV_LINKS: NavLink[] = [
  */
 export const NEW_BADGE_PATHS = new Set<string>([
   "/docs/layout/stage",
+  "/docs/typography/type-fossil",
   "/docs/typography/caret-swap",
   "/docs/typography/centered-word-build",
   "/docs/typography/fog-rise",
