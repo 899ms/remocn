@@ -12,6 +12,16 @@ export interface RegistryEntry {
 }
 
 const registry: Record<string, RegistryEntry> = {
+  "search-reveal": {
+    load: () =>
+      import("@/registry/remocn/search-reveal").then((m) => ({
+        default: m.SearchReveal,
+      })),
+    loadConfig: () =>
+      import("@/registry/remocn/search-reveal/config").then(
+        (m) => m.searchRevealConfig,
+      ),
+  },
   "soft-blur-in": {
     load: () =>
       import("@/registry/remocn/soft-blur-in").then((m) => ({
@@ -498,6 +508,16 @@ const registry: Record<string, RegistryEntry> = {
     loadConfig: () =>
       import("@/registry/remocn/perspective-squeeze/config").then(
         (m) => m.perspectiveSqueezeConfig,
+      ),
+  },
+  "kinetic-morph-text": {
+    load: () =>
+      import("@/registry/remocn/kinetic-morph-text").then((m) => ({
+        default: m.KineticMorphText,
+      })),
+    loadConfig: () =>
+      import("@/registry/remocn/kinetic-morph-text/config").then(
+        (m) => m.kineticMorphTextConfig,
       ),
   },
   "kinetic-warp": {
@@ -2224,6 +2244,16 @@ const registry: Record<string, RegistryEntry> = {
     loadConfig: () =>
       import("@/registry/remocn/x-followers-overview/config").then(
         (m) => m.xFollowersOverviewConfig,
+      ),
+  },
+  "radial-burst": {
+    load: () =>
+      import("@/registry/remocn/radial-burst").then((m) => ({
+        default: m.RadialBurst,
+      })),
+    loadConfig: () =>
+      import("@/registry/remocn/radial-burst/config").then(
+        (m) => m.radialBurstConfig,
       ),
   },
   confetti: {
