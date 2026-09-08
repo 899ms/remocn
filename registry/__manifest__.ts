@@ -565,6 +565,21 @@ export const previewManifest: Record<string, PreviewManifestEntry> = {
       speed: 1,
     },
   },
+  "cursor-gravity": {
+    durationInFrames: 180,
+    fps: 30,
+    compositionWidth: 1280,
+    compositionHeight: 720,
+    defaults: {
+      label: "Create something",
+      tension: 1,
+      cursorColor: "#fffaf0",
+      color: "#fffaf0",
+      textColor: "#32153c",
+      backgroundColor: "#a800b7",
+      speed: 1,
+    },
+  },
   dialog: {
     durationInFrames: 120,
     fps: 30,

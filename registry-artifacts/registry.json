@@ -2208,6 +2208,20 @@
       "type": "registry:component"
     },
     {
+      "name": "cursor-gravity",
+      "title": "Cursor Gravity",
+      "description": "A rounded triangular cursor tugs a button out of the screen edge with pulsed elastic resistance.",
+      "dependencies": ["remotion"],
+      "files": [
+        {
+          "path": "registry/remocn/cursor-gravity/index.tsx",
+          "type": "registry:component",
+          "target": "components/remocn/cursor-gravity.tsx"
+        }
+      ],
+      "type": "registry:component"
+    },
+    {
       "name": "remocn-ui",
       "title": "remocn UI Core",
       "description": "Shared timeline-fold hook, theme context, and color math for remocn UI primitives.",

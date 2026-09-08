@@ -2246,6 +2246,16 @@ const registry: Record<string, RegistryEntry> = {
         (m) => m.xFollowersOverviewConfig,
       ),
   },
+  "cursor-gravity": {
+    load: () =>
+      import("@/registry/remocn/cursor-gravity").then((m) => ({
+        default: m.CursorGravity,
+      })),
+    loadConfig: () =>
+      import("@/registry/remocn/cursor-gravity/config").then(
+        (m) => m.cursorGravityConfig,
+      ),
+  },
   "radial-burst": {
     load: () =>
       import("@/registry/remocn/radial-burst").then((m) => ({

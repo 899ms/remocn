@@ -80,6 +80,7 @@ export const NEW_BADGE_PATHS = new Set<string>([
   "/docs/typography/word-push",
   "/docs/typography/word-stream",
   "/docs/typography/zoom-words",
+  "/docs/effects/cursor-gravity",
   "/docs/effects/radial-burst",
   "/docs/ui-blocks/search-reveal",
 ]);
