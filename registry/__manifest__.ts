@@ -2624,6 +2624,27 @@ export const previewManifest: Record<string, PreviewManifestEntry> = {
       speed: 1,
     },
   },
+  "inline-word-roll": {
+    durationInFrames: 105,
+    fps: 30,
+    compositionWidth: 1280,
+    compositionHeight: 720,
+    previewBackdrop: {
+      type: "color",
+      value: "#000000",
+    },
+    defaults: {
+      prefix: "Looking for",
+      text: "leads | customers | subscribers | appointments | demos | quotes | registrants | trials | conversions",
+      suffix: "?",
+      fontSize: 60,
+      interval: 12,
+      acceleration: 0.9,
+      transitionFrames: 6,
+      color: "#f5f5f5",
+      speed: 1,
+    },
+  },
   input: {
     durationInFrames: 120,
     fps: 30,
@@ -3525,6 +3546,24 @@ export const previewManifest: Record<string, PreviewManifestEntry> = {
       colorBack: "#12121a",
     },
   },
+  "shader-light-tunnel": {
+    durationInFrames: 90,
+    fps: 30,
+    compositionWidth: 1280,
+    compositionHeight: 720,
+    previewBackdrop: {
+      type: "color",
+      value: "#05050a",
+    },
+    defaults: {
+      speed: 1,
+      twist: 0.7,
+      spirals: 3,
+      glow: 1,
+      depth: 1,
+      timeOffset: 0,
+    },
+  },
   "shader-liquid-metal": {
     durationInFrames: 150,
     fps: 30,
@@ -3601,6 +3640,22 @@ export const previewManifest: Record<string, PreviewManifestEntry> = {
       colorBack: "#12121a",
     },
   },
+  "shader-seam": {
+    durationInFrames: 156,
+    fps: 30,
+    compositionWidth: 1280,
+    compositionHeight: 720,
+    previewBackdrop: {
+      type: "color",
+      value: "#14121c",
+    },
+    defaults: {
+      softness: 0.18,
+      detail: 0.65,
+      timeOffset: 0,
+      speed: 1,
+    },
+  },
   "shader-simplex-noise": {
     durationInFrames: 150,
     fps: 30,
@@ -3638,6 +3693,24 @@ export const previewManifest: Record<string, PreviewManifestEntry> = {
       colorBack: "#12121a",
     },
   },
+  "shader-spiral-pass": {
+    durationInFrames: 168,
+    fps: 30,
+    compositionWidth: 1280,
+    compositionHeight: 720,
+    previewBackdrop: {
+      type: "color",
+      value: "#15111c",
+    },
+    defaults: {
+      speed: 1,
+      spirals: 3,
+      twist: 0.7,
+      zoom: 14,
+      softness: 0.12,
+      timeOffset: 0,
+    },
+  },
   "shader-strata": {
     durationInFrames: 150,
     fps: 30,
@@ -3662,6 +3735,23 @@ export const previewManifest: Record<string, PreviewManifestEntry> = {
       twist: 0.1,
       softness: 0.2,
       colorBack: "#12121a",
+    },
+  },
+  "shader-text-reveal": {
+    durationInFrames: 75,
+    fps: 30,
+    compositionWidth: 1280,
+    compositionHeight: 720,
+    previewBackdrop: {
+      type: "color",
+      value: "#000000",
+    },
+    defaults: {
+      text: "Your product",
+      fontSize: 400,
+      wordDuration: 30,
+      intensity: 1,
+      speed: 1,
     },
   },
   "shader-voronoi": {
