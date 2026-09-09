@@ -3,6 +3,7 @@
   "defaultOpen": true,
   "pages": [
     "index",
+    "type-fossil",
     "soft-blur-in",
     "per-character-rise",
     "bottom-up-letters",

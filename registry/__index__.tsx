@@ -22,6 +22,16 @@ const registry: Record<string, RegistryEntry> = {
         (m) => m.searchRevealConfig,
       ),
   },
+  "type-fossil": {
+    load: () =>
+      import("@/registry/remocn/type-fossil").then((m) => ({
+        default: m.TypeFossil,
+      })),
+    loadConfig: () =>
+      import("@/registry/remocn/type-fossil/config").then(
+        (m) => m.typeFossilConfig,
+      ),
+  },
   "soft-blur-in": {
     load: () =>
       import("@/registry/remocn/soft-blur-in").then((m) => ({
@@ -2244,6 +2254,16 @@ const registry: Record<string, RegistryEntry> = {
     loadConfig: () =>
       import("@/registry/remocn/x-followers-overview/config").then(
         (m) => m.xFollowersOverviewConfig,
+      ),
+  },
+  "cursor-gravity": {
+    load: () =>
+      import("@/registry/remocn/cursor-gravity").then((m) => ({
+        default: m.CursorGravity,
+      })),
+    loadConfig: () =>
+      import("@/registry/remocn/cursor-gravity/config").then(
+        (m) => m.cursorGravityConfig,
       ),
   },
   "radial-burst": {

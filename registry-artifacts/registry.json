@@ -2208,6 +2208,34 @@
       "type": "registry:component"
     },
     {
+      "name": "cursor-gravity",
+      "title": "Cursor Gravity",
+      "description": "A rounded triangular cursor tugs a button out of the screen edge with pulsed elastic resistance.",
+      "dependencies": ["remotion"],
+      "files": [
+        {
+          "path": "registry/remocn/cursor-gravity/index.tsx",
+          "type": "registry:component",
+          "target": "components/remocn/cursor-gravity.tsx"
+        }
+      ],
+      "type": "registry:component"
+    },
+    {
+      "name": "type-fossil",
+      "title": "Type Fossil",
+      "description": "A readable word carries layers of fine contours, revises itself, then compresses into a clean typographic imprint.",
+      "dependencies": ["remotion"],
+      "files": [
+        {
+          "path": "registry/remocn/type-fossil/index.tsx",
+          "type": "registry:component",
+          "target": "components/remocn/type-fossil.tsx"
+        }
+      ],
+      "type": "registry:component"
+    },
+    {
       "name": "remocn-ui",
       "title": "remocn UI Core",
       "description": "Shared timeline-fold hook, theme context, and color math for remocn UI primitives.",
@@ -2551,6 +2579,26 @@
           "path": "registry/remocn-ui/select/use-select-transition.ts",
           "type": "registry:component",
           "target": "components/remocn/use-select-transition.ts"
+        }
+      ],
+      "type": "registry:component"
+    },
+    {
+      "name": "select-menu",
+      "title": "UI Select Menu",
+      "description": "A vertical option list where exactly one row is highlighted; the highlight bar and left accent slide smoothly between rows. Fully controlled via selectedIndex/state or useSelectMenuTransition.",
+      "dependencies": ["remotion"],
+      "registryDependencies": ["@remocn/remocn-ui"],
+      "files": [
+        {
+          "path": "registry/remocn-ui/select-menu/index.tsx",
+          "type": "registry:component",
+          "target": "components/remocn/select-menu.tsx"
+        },
+        {
+          "path": "registry/remocn-ui/select-menu/use-select-menu-transition.ts",
+          "type": "registry:component",
+          "target": "components/remocn/use-select-menu-transition.ts"
         }
       ],
       "type": "registry:component"

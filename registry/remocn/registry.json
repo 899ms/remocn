@@ -2206,6 +2206,34 @@
           "target": "components/remocn/search-reveal.tsx"
         }
       ]
+    },
+    {
+      "name": "cursor-gravity",
+      "type": "registry:component",
+      "title": "Cursor Gravity",
+      "description": "A rounded triangular cursor tugs a button out of the screen edge with pulsed elastic resistance.",
+      "dependencies": ["remotion"],
+      "files": [
+        {
+          "path": "cursor-gravity/index.tsx",
+          "type": "registry:component",
+          "target": "components/remocn/cursor-gravity.tsx"
+        }
+      ]
+    },
+    {
+      "name": "type-fossil",
+      "type": "registry:component",
+      "title": "Type Fossil",
+      "description": "A readable word carries layers of fine contours, revises itself, then compresses into a clean typographic imprint.",
+      "dependencies": ["remotion"],
+      "files": [
+        {
+          "path": "type-fossil/index.tsx",
+          "type": "registry:component",
+          "target": "components/remocn/type-fossil.tsx"
+        }
+      ]
     }
   ]
 }
