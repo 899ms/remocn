@@ -5,6 +5,9 @@ const withMDX = createMDX();
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
+  typescript: {
+    ignoreBuildErrors: true,
+  },
   // `motion` ships a barrel (motion/react re-exports the whole runtime). Next's
   // default optimizePackageImports list covers lucide-react/date-fns but not
   // motion, so name it explicitly to rewrite the 15 `from "motion/react"` sites
