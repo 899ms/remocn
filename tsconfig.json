@@ -20,6 +20,12 @@
       }
     ],
     "paths": {
+      "@/components/remocn/typed-split-wipe": [
+        "./registry/remocn/typed-split-wipe/index.tsx"
+      ],
+      "@/components/remocn/shader-text-reveal": [
+        "./registry/remocn/shader-text-reveal/index.tsx"
+      ],
       "@/lib/remocn-icons": ["./registry/remocn-icons/icons-core/index.ts"],
       "@/lib/remocn-ui": ["./registry/remocn-ui/core/index.ts"],
       "@/lib/remocn-ui/*": ["./registry/remocn-ui/core/*"],
@@ -167,7 +173,13 @@
       ],
       "@/components/remocn/reel": ["./registry/remocn/reel/index.tsx"],
       "@/components/remocn/*": ["./registry/remocn-ui/*/index.tsx"],
-      "@/*": ["./*"]
+      "@/*": ["./*"],
+      "@/components/remocn/word-push": [
+        "./registry/remocn/word-push/index.tsx"
+      ],
+      "@/components/remocn/radial-burst": [
+        "./registry/remocn/radial-burst/index.tsx"
+      ]
     }
   },
   "include": [
